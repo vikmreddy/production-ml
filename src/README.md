@@ -1,2 +1,3 @@
 ## Configs
-Add hindinlp modules to PYTHONPATH, conda's interpreter will detect it
+Add package config, pip install package locally
+Then my modules will be available to the interpreter

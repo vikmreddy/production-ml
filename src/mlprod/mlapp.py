@@ -4,6 +4,9 @@ class MachineLearningApp(object):
 		self.Train = None
 		self.Read_Dataset = None
 
-class OpticalCharacterRecogApp(MachineLearningApp):
+class OpticalCharacterRecognitionApp(MachineLearningApp):
 	''' App for Optical Character Recognition (OCR) for English and
 	Foreign Languages '''
+	def __init__(self):
+		self.Train = None
+		self.Read_Dataset = None

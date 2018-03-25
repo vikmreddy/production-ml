@@ -2,91 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39fbe25a-02cb-4148-903e-3d1cd8f6deef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/activate.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/deactivate.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mlprod.egg-info/PKG-INFO" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mlprod.egg-info/SOURCES.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mlprod.egg-info/dependency_links.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mlprod.egg-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
-      <change beforePath="$PROJECT_DIR$/test/README.md" afterPath="$PROJECT_DIR$/test/README.md" />
-      <change beforePath="$PROJECT_DIR$/test/instances/test_mlapp.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/Hindi_LSTM.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/Hindi_load_lines.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/Hindi_load_lines_to_mem.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/Hindi_text.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/Image_Preprocessing.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/100.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/100.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_10" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_11" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_11.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_12" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_12.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_13" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_13.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_14" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_14.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_15" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_15.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_16" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_16.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_17" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_17.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_18" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_18.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_19" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_19.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_20" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_20.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_21" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_21.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_22" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_22.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_23" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_23.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_24" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_24.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_25" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_25.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_5" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_6" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_8" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_9" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/load_audio_to_mem.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/1970-28415-0023.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/1970-28415-0023.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/211-122425-0059.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/211-122425-0059.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/2843-152918-0008.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/2843-152918-0008.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/3259-158083-0026.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/3259-158083-0026.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/3879-174923-0005.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/mydata/3879-174923-0005.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/never give up.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/test_load_audio_to_mem.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/test_text.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/text.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/test_sample.py" afterPath="$PROJECT_DIR$/test/test_sample.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -148,8 +64,8 @@
       <file leaf-file-name="test_sample.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -200,6 +116,7 @@
         <option value="$PROJECT_DIR$/deactivate.sh" />
         <option value="$PROJECT_DIR$/activate.sh" />
         <option value="$PROJECT_DIR$/test/README.md" />
+        <option value="$PROJECT_DIR$/test/test_sample.py" />
       </list>
     </option>
   </component>
@@ -767,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>

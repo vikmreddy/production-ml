@@ -9,3 +9,6 @@ def test_sum_should_be_5():
 def test_instantiation():
 	my_app = MachineLearningApp()
 	assert my_app
+
+def test_sum_should_be_7():
+	assert func(5) == 7

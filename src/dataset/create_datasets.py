@@ -16,5 +16,5 @@ class Dataset(object):
 		except:
 			return 'incorrect path, could not find data'
 		else:
-			return [3,4]
+			return loaded_data.shape
 

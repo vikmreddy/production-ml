@@ -1,7 +1,6 @@
-# hindi-ocr
-Deep Learning for Hindi OCR, computer vision, foreign natural language processing
+# Production Machine Learning
 
 ## Test-Driven Development
-Pytest for Unit Tests and CircleCI for Continuous Integration
+Pytest for Unit Tests and TravisCRI for Continuous Integration
 
-Run tests with cmd: pytest in terminal from hindinlp folder.
+Run tests with cmd: pytest in terminal from production-ml folder.

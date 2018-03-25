@@ -1,6 +1,0 @@
-README.md
-mlprod.egg-info/PKG-INFO
-mlprod.egg-info/SOURCES.txt
-mlprod.egg-info/dependency_links.txt
-mlprod.egg-info/top_level.txt
-test/test_sample.py

@@ -7,5 +7,5 @@ setup(
 	version = '0.0.1',
 	author = 'Vikram M. Reddy',
 	author_email = 'vikram_reddy@berkeley.edu',
-	url = 'https://github.com/vikmreddy/hindinlp'
+	url = 'https://github.com/vikmreddy/production-ml'
 	)

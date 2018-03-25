@@ -2,11 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39fbe25a-02cb-4148-903e-3d1cd8f6deef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/.cache/v/cache/lastfailed" />
-      <change beforePath="$PROJECT_DIR$/src/mlprod/mlapp.py" afterPath="$PROJECT_DIR$/src/mlprod/mlapp.py" />
-      <change beforePath="$PROJECT_DIR$/test/eval/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/train/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utils/Hindi_load_lines.ipynb" afterPath="$PROJECT_DIR$/utils/Hindi_load_lines.ipynb" />
+      <change beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/activate.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/deactivate.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mlprod.egg-info/PKG-INFO" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mlprod.egg-info/SOURCES.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mlprod.egg-info/dependency_links.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mlprod.egg-info/top_level.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+      <change beforePath="$PROJECT_DIR$/test/README.md" afterPath="$PROJECT_DIR$/test/README.md" />
+      <change beforePath="$PROJECT_DIR$/test/instances/test_mlapp.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/Hindi_LSTM.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/Hindi_load_lines.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/Hindi_load_lines_to_mem.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/Hindi_text.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/Image_Preprocessing.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/100.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_10" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_11" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_12" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_13" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_14" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_15" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_16" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_17" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_17.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_18" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_18.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_19" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_19.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_20" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_20.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_21" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_21.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_22" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_22.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_23" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_23.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_24" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_24.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_25" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_25.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/load_audio_to_mem.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/1970-28415-0023.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/1970-28415-0023.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/211-122425-0059.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/211-122425-0059.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/2843-152918-0008.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/2843-152918-0008.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/3259-158083-0026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/3259-158083-0026.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/3879-174923-0005.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/mydata/3879-174923-0005.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/never give up.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/test_load_audio_to_mem.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/test_text.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/utils/text.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,10 +96,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="mlapp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mlprod/mlapp.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_sample.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/create_models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_features.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/create_features.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -27,67 +175,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_mlapp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/instances/test_mlapp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="never give up.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/never give up.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hindi_load_lines.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/Hindi_load_lines.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_load_audio_to_mem.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/test_load_audio_to_mem.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load_audio_to_mem.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/load_audio_to_mem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="line_0" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0">
+      <file leaf-file-name="model_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model_train/model_train.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="line_2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -101,12 +195,17 @@
       <list>
         <option value="$PROJECT_DIR$/test/instances/test_mlapp.py" />
         <option value="$PROJECT_DIR$/utils/Hindi_load_lines.ipynb" />
+        <option value="$PROJECT_DIR$/src/prob.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/deactivate.sh" />
+        <option value="$PROJECT_DIR$/activate.sh" />
+        <option value="$PROJECT_DIR$/test/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
-    <option name="y" value="128" />
+    <option name="x" value="40" />
+    <option name="y" value="54" />
     <option name="width" value="1400" />
     <option name="height" value="784" />
   </component>
@@ -126,51 +225,88 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="hindi-ocr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hindi-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hindi-ocr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hindi-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hindi-ocr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hindi-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mlprod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hindi-ocr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hindi-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model_eval" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model_train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hindi-ocr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hindi-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="instances" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hindi-ocr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hindi-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="model_eval" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hindi-ocr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hindi-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="hindi_data" type="462c0819:PsiDirectoryNode" />
+              <item name="production-ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="production-ml" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="model_train" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,6 +325,31 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="prob" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hindi-ocr" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/prob.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.prob" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -206,25 +367,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="128" width="1400" height="784" extended-state="0" />
+    <frame x="40" y="54" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988764" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -232,15 +393,70 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mlprod/mlapp.py">
+    <entry file="file://$PROJECT_DIR$/src/features/create_features.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model_train/model_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/load_audio_to_mem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Hindi_load_lines.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_load_audio_to_mem.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mlprod/mlapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -252,20 +468,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_1">
+    <entry file="file://$PROJECT_DIR$/utils/load_audio_to_mem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="13" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -281,6 +487,32 @@
     <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mlprod/mlapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/instances/test_mlapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/load_audio_to_mem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/never give up.ipynb">
@@ -304,10 +536,239 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prob.py" />
+    <entry file="file://$PROJECT_DIR$/test/instances/test_mlapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mlprod/mlapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/never give up.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Hindi_load_lines.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_load_audio_to_mem.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/load_audio_to_mem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hindi_data/hindi_lines/line_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Hindi_load_lines.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_load_audio_to_mem.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prob.py" />
+    <entry file="file://$PROJECT_DIR$/src/dataset/create_datasets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/load_audio_to_mem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/never give up.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/create_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/create_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model_train/model_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mlprod/mlapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deactivate.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activate.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/instances/test_mlapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>

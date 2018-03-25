@@ -8,12 +8,11 @@ class MachineLearningApp(object):
 		self.Train = None
 		self.Read_Dataset = None
 
-class OpticalCharacterRecognitionApp(MachineLearningApp):
-	''' App for Optical Character Recognition (OCR) for English and
-	Foreign Languages.
+class StructuredDataApp(MachineLearningApp):
+	''' App for Machine Learning using Structured Data.
 
 	Delegation:
-	Dataset object reads dataset, does image preprocessing, extracts lines,
+	Dataset object reads dataset, does preprocessing, extracts lines,
 		and partitions into train, dev, and test.
 	Features object extracts features from the lines of text.
 	Train object runs the model.

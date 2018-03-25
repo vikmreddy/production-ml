@@ -23,6 +23,19 @@ class Dataset(object):
         return self.loaded_data
 
 class Preprocess(object):
-    ''' Preprocesses data and sends it back to the Dataset object '''
+    ''' Job: Preprocesses data and sends it back to the Dataset object.
+    Delagates to an EDA object. The EDA object handles functions such
+    as plotting nulls, and sends information back to the Preprocess
+    object.'''
     def __init__(self, df):
         self.df = df
+        self.preprocessed_df = None
+
+    def get_preprocessed_so_far(self):
+        return self.preprocessed_df
+
+class EDA(object):
+    ''' Job: Runs an Exploratory Data Analysis of the data that has been
+    preprocessed so far.'''
+    def __init__(self, preprocessed_df):
+        self.preprocessed_df = preprocessed_df

@@ -1,11 +1,8 @@
 language: python
 python:
-	- "3.6"
-cache: pip
-install:
-	- pip install -r requirements.txt
+  - "3.6"
 script:
-	- pytest
+  - pytest
 notifications:
-	email:
-		- vikram_reddy@berkeley.edu
+  email:
+    - vikram_reddy@berkeley.edu

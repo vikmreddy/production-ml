@@ -38,6 +38,26 @@ class Preprocess(object):
         else:
             return self.preprocessed_df
 
+    def fill_nulls_with_medians(self):
+        ''' Currently, preprocess is not immutable. It changes state with each
+        call of a particular function.'''
+        if self.preprocessed_df == None:
+            self.preprocessed_df = self.df
+        self.preprocessed_df = self.preprocessed_df.fillna(self.preprocessed_df.median())
+
+    def __eq__(self, other):
+        # Testing if objects of the EDA class are equal or not
+        # Based on: https://stackoverflow.com/questions/1227121/compare-object-instances-
+        # for-equality-by-their-attributes-in-python?utm_medium=organic&utm_
+        # source=google_rich_qa&utm_campaign=google_rich_qa
+
+        # they are equal if their internal data is equal
+        if self.preprocessed_df.equals(other.preprocessed_df):
+            return True
+        else:
+            return False
+
+
 class EDA(object):
     ''' Job: Runs an Exploratory Data Analysis of the data that has been
     preprocessed so far.'''

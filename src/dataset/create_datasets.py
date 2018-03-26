@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
 
 class Dataset(object):
     ''' Job: Reads raw data, delegates to preprocess and EDA functions.'''

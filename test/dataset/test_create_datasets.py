@@ -15,8 +15,27 @@ def test_delegation_to_preprocess_object():
     assert preprocess
 
 def test_preprocess_delegation_to_eda_object():
-    '''EDA gets passed the data that has undergone preprocessing'''
+    '''EDA gets passed the data that has undergone preprocessing.
+    In the future, I can refactor to make EDA and Preprocess
+    immutable objects.'''
     dataset = Dataset('src/data/Health_data.csv')
+    dataset.load_data()
     preprocess = Preprocess(dataset.get_data())
     eda = EDA(preprocess.get_preprocessed_so_far())
     assert eda
+
+def test_plot_nulls_in_the_eda():
+    dataset = Dataset('src/data/Health_data.csv')
+    dataset.load_data()
+    preprocess = Preprocess(dataset.get_data())
+    eda = EDA(preprocess.get_preprocessed_so_far()).plot_nulls()
+    eda_nulls = EDA(preprocess.get_preprocessed_so_far()).plot_nulls()
+    assert eda == eda_nulls
+#
+#
+# def test_get_preprocessing():
+#     dataset = Dataset('src/data/Health_data.csv')
+#     dataset.load_data()
+#     preprocess = Preprocess(dataset.get_data())
+#     eda = EDA(preprocess.get_preprocessed_so_far())
+#     assert eda.get_preprocessed_df()

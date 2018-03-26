@@ -24,7 +24,7 @@ class Dataset(object):
 
 class Preprocess(object):
     ''' Job: Preprocesses data and sends it back to the Dataset object.
-    Delagates to an EDA object. The EDA object handles functions such
+    Delegates to an EDA object. The EDA object handles functions such
     as plotting nulls, and sends information back to the Preprocess
     object.'''
     def __init__(self, df):
@@ -32,10 +32,36 @@ class Preprocess(object):
         self.preprocessed_df = None
 
     def get_preprocessed_so_far(self):
-        return self.preprocessed_df
+        ''' If not yet preprocessed, return the original dataframe'''
+        if self.preprocessed_df == None:
+            return self.df
+        else:
+            return self.preprocessed_df
 
 class EDA(object):
     ''' Job: Runs an Exploratory Data Analysis of the data that has been
     preprocessed so far.'''
-    def __init__(self, preprocessed_df):
+    def __init__(self, preprocessed_df, img=None):
         self.preprocessed_df = preprocessed_df
+        self.image_of_plot = img
+
+    def plot_nulls(self):
+        nulls = pd.DataFrame(self.preprocessed_df.isnull().sum(),
+                             columns=['nulls'])
+        img = nulls.plot(kind='bar', figsize=(10,4))
+        return EDA(self.preprocessed_df, img)
+
+    def get_preprocessed_df(self):
+        return self.preprocessed_df
+
+    def __eq__(self, other):
+        # Testing if objects of the EDA class are equal or not
+        # Based on: https://stackoverflow.com/questions/1227121/compare-object-instances-
+        # for-equality-by-their-attributes-in-python?utm_medium=organic&utm_
+        # source=google_rich_qa&utm_campaign=google_rich_qa
+
+        # they are equal if their internal data is equal
+        if self.preprocessed_df.equals(other.preprocessed_df):
+            return True
+        else:
+            return False

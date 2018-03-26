@@ -15,8 +15,8 @@ I used Python and pytest to build a Production Machine Learning App that loads d
 
 ## Software Design
 - Made use of delegation: The Dataset object delegates to Preprocess, which delegates to EDA
-- StructuredDataApp defines Dataset, Features, Model, Train, and Eval functions
+- StructuredDataApp defines Dataset, Features, Model, Train, and Eval objects
 - StructuredDataApp inherits from MachineLearningApp
-- MachineLearningApp initializes Dataset, Features, Model, Train, and Eval functions
+- MachineLearningApp initializes Dataset, Features, Model, Train, and Eval objects
 - A future class "UnstructuredDataApp" will inherit from MachineLearningApp as well
   - Its Dataset object utilize different methods for preprocessing text and image data

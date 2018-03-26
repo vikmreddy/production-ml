@@ -6,7 +6,7 @@ Pytest for Unit Tests and TravisCI for Continuous Integration
 Run tests with cmd: pytest in terminal from production-ml folder.
 
 ## About
-I used Python and pytest to build a Production Machine Learning App that loads data, preprocesses it, and provides preliminary EDA (Exploratory Data Analysis).
+I used Python and pytest to build a Production Machine Learning App that loads data, preprocesses it, and provides preliminary EDA (Exploratory Data Analysis). The app currently supports structured data, and it is extensible to unstructured data (text and images).
 
 ## Learnings
 - Used Pytest to test Matplotlib's plotting, had to override object's equal function and configure Travis's VM to make this successful

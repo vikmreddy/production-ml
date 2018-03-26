@@ -5,7 +5,7 @@ if os.environ.get('DISPLAY', '') == '':
     print('no display found. Using non-interactive Agg backend')
     mpl.use('Agg')
 import matplotlib.pyplot as plt
-plt.ioff()
+plt.ioff() # Turn off interaction mode
 
 class Dataset(object):
     ''' Job: Reads raw data, delegates to preprocess and EDA functions.'''
@@ -51,6 +51,13 @@ class Preprocess(object):
         if self.preprocessed_df == None:
             self.preprocessed_df = self.df
         self.preprocessed_df = self.preprocessed_df.fillna(self.preprocessed_df.median())
+
+    def fill_nulls_with_zeros(self):
+        ''' Currently, preprocess is not immutable. It changes state with each
+        call of a particular function.'''
+        if self.preprocessed_df == None:
+            self.preprocessed_df = self.df
+        self.preprocessed_df = self.preprocessed_df.fillna(0)
 
     def __eq__(self, other):
         # Testing if objects of the EDA class are equal or not

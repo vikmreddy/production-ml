@@ -41,3 +41,13 @@ def test_fill_nulls_with_medians():
     # Another preprocess object that has filled nulls
     medians = Preprocess(dataset.get_data()).fill_nulls_with_medians()
     assert preprocess == medians
+
+def test_fill_nulls_with_zeros():
+    dataset = Dataset('src/data/Health_data.csv')
+    dataset.load_data()
+    preprocess = Preprocess(dataset.get_data())
+    # First preprocess object with filled nulls
+    preprocess = preprocess.fill_nulls_with_zeros()
+    # Another preprocess object that has filled nulls
+    zeros = Preprocess(dataset.get_data()).fill_nulls_with_zeros()
+    assert preprocess == zeros

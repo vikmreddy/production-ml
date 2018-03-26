@@ -5,8 +5,12 @@ from src.models.create_models import Model
 class MachineLearningApp(object):
 	''' Base class for all Machine Learning Applications'''
 	def __init__(self):
+		# Composition, self contains other objects
+		self.Dataset = None
+		self.Features = None
+		self.Model = None
 		self.Train = None
-		self.Read_Dataset = None
+		self.Eval = None
 
 class StructuredDataApp(MachineLearningApp):
 	''' App for Machine Learning using Structured Data.
@@ -20,9 +24,7 @@ class StructuredDataApp(MachineLearningApp):
 
 	def __init__(self, data_path, features_config, model_config):
 		# Composition, self contains other objects
+		MachineLearningApp.__init__(self)
 		self.Dataset = Dataset(data_path)
 		self.Features = Features(features_config)
 		self.Model = Model(model_config)
-		self.Train = None
-		self.Eval = None
-

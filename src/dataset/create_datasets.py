@@ -1,5 +1,11 @@
 import pandas as pd
+import matplotlib as mpl
 import os
+if os.environ.get('DISPLAY', '') == '':
+    print('no display found. Using non-interactive Agg backend')
+    mpl.use('Agg')
+import matplotlib.pyplot as plt
+plt.ioff()
 
 class Dataset(object):
     ''' Job: Reads raw data, delegates to preprocess and EDA functions.'''
@@ -67,12 +73,6 @@ class EDA(object):
         self.image_of_plot = img
 
     def plot_nulls(self):
-        import matplotlib as mpl
-        if os.environ.get('DISPLAY', '') == '':
-            print('no display found. Using non-interactive Agg backend')
-            mpl.use('Agg')
-        import matplotlib.pyplot as plt
-        plt.ioff()
         nulls = pd.DataFrame(self.preprocessed_df.isnull().sum(),
                              columns=['nulls'])
         img = nulls.plot(kind='bar', figsize=(10,4))
